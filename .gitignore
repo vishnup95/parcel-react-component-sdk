@@ -1,0 +1,15 @@
+.DS_Store
+coverage
+node_modules
+npm-debug.log
+build-storybook.log
+test-reports.xml
+dist
+.idea
+.package-lock.json
+.cache
+.parcel-cache
+
+dist
+public
+storybook-static

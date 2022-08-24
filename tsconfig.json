@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		// we can explicitly declare `any`, but we don't want to infer `any`
+		"noImplicitAny": false,
+		"target": "es6",
+		// allows react jsx in tsx files
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"allowJs": true,
+		"noEmit": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"lib": ["esnext", "dom", "dom.iterable"],
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["lib"],
+	"exclude": ["**/node_modules", "dist"]
+}
