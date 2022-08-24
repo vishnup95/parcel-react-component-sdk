@@ -1,31 +1,56 @@
 {
-	"name": "parcel-ditto-sdk",
-	"version": "1.0.0",
-	"description": "a parcel bundled ditto component sdk",
-	"source": "lib/index.ts",
-	"main": "dist/index.js",
-	"module": "dist/module.js",
-	"types": "dist/types.d.ts",
-	"browserslist": [
-		"last 1 version",
-		"> 1%",
-		"IE 11"
-	],
-	"scripts": {
-		"watch": "parcel watch",
-		"build": "parcel build"
-	},
-	"author": "ditto",
-	"license": "MIT",
-	"private": true,
-	"devDependencies": {
-		"@parcel/packager-ts": "2.7.0",
-		"@parcel/transformer-typescript-types": "2.7.0",
-		"@types/react": "^18.0.17",
-		"@types/react-dom": "^18.0.6",
-		"parcel": "^2.7.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"typescript": "^4.7.4"
-	}
+  "name": "parcel-ditto-sdk",
+  "version": "0.0.1",
+  "description": "a parcel bundled ditto component sdk",
+  "source": "lib/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 11"
+  ],
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "ditto",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@parcel/packager-ts": "2.7.0",
+    "@parcel/transformer-typescript-types": "2.7.0",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "babel-loader": "^8.2.5",
+    "parcel": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@mui/material": "^5.10.2",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+    "@mui/styled-engine-sc": "^5.10.1",
+    "@swc/helpers": "^0.4.9",
+    "styled-components": "^5.3.5"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
 }
