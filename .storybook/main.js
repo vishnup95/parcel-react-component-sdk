@@ -8,8 +8,12 @@ module.exports = {
 	],
 	core: {
 		builder: 'webpack5',
+		options: {
+			lazyCompilation: true,
+		},
 	},
 	features: {
+		storyStoreV7: true,
 		emotionAlias: false,
 	},
 	framework: '@storybook/react',

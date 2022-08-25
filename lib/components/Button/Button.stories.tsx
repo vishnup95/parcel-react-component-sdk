@@ -7,7 +7,7 @@ export default {
 	title: 'Example/Button',
 	component: DittoButton,
 	argTypes: {
-		label: { control: 'text' },
+		label: { control: 'text' }, // global args??
 	},
 } as ComponentMeta<typeof DittoButton>;
 
