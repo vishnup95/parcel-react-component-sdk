@@ -4,7 +4,7 @@
 		"noImplicitAny": false,
 		"target": "es6",
 		// allows react jsx in tsx files
-		"jsx": "react",
+		"jsx": "react-jsx",
 		"allowSyntheticDefaultImports": true,
 		"resolveJsonModule": true,
 		"moduleResolution": "node",
