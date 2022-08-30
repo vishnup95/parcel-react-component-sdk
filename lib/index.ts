@@ -1,1 +1,1 @@
-export { sum } from './sum';
+export { DittoButton } from './components/Button/Button';
