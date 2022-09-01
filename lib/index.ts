@@ -1,1 +1,1 @@
-export { sum } from './sum';
+export { ThemedPopover } from './components/popover';
